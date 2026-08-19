@@ -1,0 +1,199 @@
+<svg width="560" height="355" viewBox="0 0 560 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble { fill: #e9e9eb; }
+    .bubble-group text { fill: #242424; }
+    a { fill: #0079ff; }
+    text {
+      font-size: 18px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      letter-spacing: -0.01em;
+    }
+
+    @keyframes wait { 0%, 100% { opacity: 0; } }
+    @keyframes fade-in-out {
+      0%, 100% { opacity: 0; }
+      25%, 90% { opacity: 1; }
+    }
+    
+    .typing-1 {
+      opacity: 0;
+      animation: wait 0.2s, fade-in-out 1s 0.2s;
+    }
+
+    @keyframes slide-in-1 {
+      0% { opacity: 0; transform: translate(10px, 5px); }
+      100% { opacity: 1; transform: translate(10px, 0px); }
+    }
+    .msg-1 {
+      opacity: 0;
+      animation: wait 1.4s, slide-in-1 0.2s 1.4s forwards;
+    }
+
+    .typing-2 {
+      opacity: 0;
+      animation: wait 2.8s, fade-in-out 1s 2.8s;
+    }
+
+    @keyframes slide-in-2 {
+      0% { opacity: 0; transform: translate(10px, 49px); }
+      100% { opacity: 1; transform: translate(10px, 44px); }
+    }
+    .msg-2 {
+      opacity: 0;
+      animation: wait 4s, slide-in-2 0.2s 4s forwards;
+    }
+
+    .typing-3 {
+      opacity: 0;
+      animation: wait 6.6899999999999995s, fade-in-out 1s 6.6899999999999995s;
+    }
+
+    @keyframes slide-in-3 {
+      0% { opacity: 0; transform: translate(10px, 116px); }
+      100% { opacity: 1; transform: translate(10px, 111px); }
+    }
+    .msg-3 {
+      opacity: 0;
+      animation: wait 7.89s, slide-in-3 0.2s 7.89s forwards;
+    }
+
+    .typing-4 {
+      opacity: 0;
+      animation: wait 10.43s, fade-in-out 1s 10.43s;
+    }
+
+    @keyframes slide-in-4 {
+      0% { opacity: 0; transform: translate(10px, 183px); }
+      100% { opacity: 1; transform: translate(10px, 178px); }
+    }
+    .msg-4 {
+      opacity: 0;
+      animation: wait 11.629999999999999s, slide-in-4 0.2s 11.629999999999999s forwards;
+    }
+
+    .typing-5 {
+      opacity: 0;
+      animation: wait 14.979999999999999s, fade-in-out 1s 14.979999999999999s;
+    }
+
+    @keyframes slide-in-5 {
+      0% { opacity: 0; transform: translate(10px, 273px); }
+      100% { opacity: 1; transform: translate(10px, 268px); }
+    }
+    .msg-5 {
+      opacity: 0;
+      animation: wait 16.18s, slide-in-5 0.2s 16.18s forwards;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .bubble { fill: #3b3b3d; }
+      .bubble-group text { fill: #dcdcdc; }
+      a { fill: #0c82f9; }
+    }
+  </style>
+  
+  <g transform="translate(10, 0)" class="typing-1">
+    <rect x="8.27" width="69.73" height="42" rx="20.98" class="bubble" />
+    <circle cx="13.59" cy="33.09" r="7.68" class="bubble" />
+    <circle cx="3.55" cy="41.95" r="3.55" class="bubble" />
+    <circle cx="27.48" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42.84" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="58.21" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(10, 0)" class="msg-1 bubble-group">
+    <rect width="253" height="38" rx="18" class="bubble" />
+    <text x="15" y="27">Hi, I'm Devesh Tanwar 👋</text>
+  </g>
+
+  <g transform="translate(10, 44)" class="typing-2">
+    <rect x="8.27" width="69.73" height="42" rx="20.98" class="bubble" />
+    <circle cx="13.59" cy="33.09" r="7.68" class="bubble" />
+    <circle cx="3.55" cy="41.95" r="3.55" class="bubble" />
+    <circle cx="27.48" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42.84" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="58.21" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(10, 44)" class="msg-2 bubble-group">
+    <rect width="486" height="61" rx="18" class="bubble" />
+    <text x="15" y="27">I'm 4th year student at IIT Roorkee, India, where</text>
+      <text x="15" y="50">it's 89°F (32°C) and ⛈ right now.</text>
+  </g>
+
+  <g transform="translate(10, 111)" class="typing-3">
+    <rect x="8.27" width="69.73" height="42" rx="20.98" class="bubble" />
+    <circle cx="13.59" cy="33.09" r="7.68" class="bubble" />
+    <circle cx="3.55" cy="41.95" r="3.55" class="bubble" />
+    <circle cx="27.48" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42.84" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="58.21" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(10, 111)" class="msg-3 bubble-group">
+    <rect width="458" height="61" rx="18" class="bubble" />
+    <text x="15" y="27">I've been building Fullstack/Ai-Integrated Web</text>
+      <text x="15" y="50">Applications for 11 months now.</text>
+  </g>
+
+  <g transform="translate(10, 178)" class="typing-4">
+    <rect x="8.27" width="69.73" height="42" rx="20.98" class="bubble" />
+    <circle cx="13.59" cy="33.09" r="7.68" class="bubble" />
+    <circle cx="3.55" cy="41.95" r="3.55" class="bubble" />
+    <circle cx="27.48" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42.84" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="58.21" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(10, 178)" class="msg-4 bubble-group">
+    <rect width="476" height="84" rx="18" class="bubble" />
+    <text x="15" y="27">My favorite project is JudGit — it's a bot that</text>
+      <text x="15" y="50">reads your pull requests so your teammates don't</text>
+      <text x="15" y="73">have to.</text>
+  </g>
+
+  <g transform="translate(10, 268)" class="typing-5">
+    <rect x="8.27" width="69.73" height="42" rx="20.98" class="bubble" />
+    <circle cx="13.59" cy="33.09" r="7.68" class="bubble" />
+    <circle cx="3.55" cy="41.95" r="3.55" class="bubble" />
+    <circle cx="27.48" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42.84" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="58.21" cy="20.98" r="5.02" fill="#999">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(10, 268)" class="msg-5 bubble-group">
+    <rect width="346" height="61" rx="18" class="bubble" />
+    <text x="15" y="27">you can check me on my Portfolio: </text>
+      <text x="15" y="50">@https://deveshtanwar.me</text>
+  </g>
+</svg>
