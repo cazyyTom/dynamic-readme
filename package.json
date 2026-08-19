@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "profile-readme-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build-svg.js",
+    "preview": "node test-local.js"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "got": "^14.4.5"
+  }
+}
