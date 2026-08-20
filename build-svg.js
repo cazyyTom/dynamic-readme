@@ -11,7 +11,6 @@ const CONFIG = {
     longitude: 77.8964,
   },
 
-
   role: {
     text: "building Fullstack/Ai-Integrated Web Applications",
     since: new Date(2025, 8, 25),
@@ -23,7 +22,7 @@ const CONFIG = {
       "it's a bot that reads your pull requests so your teammates don't have to.",
   },
 
-  contact: "you can check me on my Portfolio:  @https://deveshtanwar.me",
+  contact: "you can check out my portfolio at https://deveshtanwar.me",
 };
 
 // WMO weather codes -> emoji (Open-Meteo uses these)
