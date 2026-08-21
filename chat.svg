@@ -45,7 +45,7 @@
 
     .typing-3 {
       opacity: 0;
-      animation: wait 6.720000000000001s, fade-in-out 1s 6.720000000000001s;
+      animation: wait 6.6899999999999995s, fade-in-out 1s 6.6899999999999995s;
     }
 
     @keyframes slide-in-3 {
@@ -54,12 +54,12 @@
     }
     .msg-3 {
       opacity: 0;
-      animation: wait 7.920000000000001s, slide-in-3 0.2s 7.920000000000001s forwards;
+      animation: wait 7.89s, slide-in-3 0.2s 7.89s forwards;
     }
 
     .typing-4 {
       opacity: 0;
-      animation: wait 10.46s, fade-in-out 1s 10.46s;
+      animation: wait 10.43s, fade-in-out 1s 10.43s;
     }
 
     @keyframes slide-in-4 {
@@ -68,12 +68,12 @@
     }
     .msg-4 {
       opacity: 0;
-      animation: wait 11.66s, slide-in-4 0.2s 11.66s forwards;
+      animation: wait 11.629999999999999s, slide-in-4 0.2s 11.629999999999999s forwards;
     }
 
     .typing-5 {
       opacity: 0;
-      animation: wait 15.01s, fade-in-out 1s 15.01s;
+      animation: wait 14.979999999999999s, fade-in-out 1s 14.979999999999999s;
     }
 
     @keyframes slide-in-5 {
@@ -82,7 +82,7 @@
     }
     .msg-5 {
       opacity: 0;
-      animation: wait 16.209999999999997s, slide-in-5 0.2s 16.209999999999997s forwards;
+      animation: wait 16.18s, slide-in-5 0.2s 16.18s forwards;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -130,7 +130,7 @@
   <g transform="translate(10, 44)" class="msg-2 bubble-group">
     <rect width="486" height="61" rx="18" class="bubble" />
     <text x="15" y="27">I'm 4th year student at IIT Roorkee, India, where</text>
-      <text x="15" y="50">it's 90°F (32°C) and 🌧 right now.</text>
+      <text x="15" y="50">it's 91°F (33°C) and ⛈ right now.</text>
   </g>
 
   <g transform="translate(10, 111)" class="typing-3">
