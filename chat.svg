@@ -59,7 +59,7 @@
 
     .typing-4 {
       opacity: 0;
-      animation: wait 10.46s, fade-in-out 1s 10.46s;
+      animation: wait 10.55s, fade-in-out 1s 10.55s;
     }
 
     @keyframes slide-in-4 {
@@ -68,12 +68,12 @@
     }
     .msg-4 {
       opacity: 0;
-      animation: wait 11.66s, slide-in-4 0.2s 11.66s forwards;
+      animation: wait 11.75s, slide-in-4 0.2s 11.75s forwards;
     }
 
     .typing-5 {
       opacity: 0;
-      animation: wait 15.01s, fade-in-out 1s 15.01s;
+      animation: wait 15.1s, fade-in-out 1s 15.1s;
     }
 
     @keyframes slide-in-5 {
@@ -82,7 +82,7 @@
     }
     .msg-5 {
       opacity: 0;
-      animation: wait 16.209999999999997s, slide-in-5 0.2s 16.209999999999997s forwards;
+      animation: wait 16.3s, slide-in-5 0.2s 16.3s forwards;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -130,7 +130,7 @@
   <g transform="translate(10, 44)" class="msg-2 bubble-group">
     <rect width="486" height="61" rx="18" class="bubble" />
     <text x="15" y="27">I'm 4th year student at IIT Roorkee, India, where</text>
-      <text x="15" y="50">it's 87°F (31°C) and 🌧 right now.</text>
+      <text x="15" y="50">it's 85°F (29°C) and 🌧 right now.</text>
   </g>
 
   <g transform="translate(10, 111)" class="typing-3">
@@ -151,7 +151,7 @@
   <g transform="translate(10, 111)" class="msg-3 bubble-group">
     <rect width="458" height="61" rx="18" class="bubble" />
     <text x="15" y="27">I've been building Fullstack/Ai-Integrated Web</text>
-      <text x="15" y="50">Applications for 12 months now.</text>
+      <text x="15" y="50">Applications for about 1 year now.</text>
   </g>
 
   <g transform="translate(10, 178)" class="typing-4">
